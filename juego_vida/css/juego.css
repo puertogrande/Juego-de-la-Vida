@@ -18,7 +18,6 @@ img{
 }
 #casillero{
     width: 60%;
-    height: 60%;
     background-color:#F0F8FF;
     border-radius: 5%;
 }
@@ -114,9 +113,8 @@ input{
 @media only screen and (max-width: 1200px) {
     #todo{
         width: 98vw;
-        height: 98vw;
+        min-height:98vw;
         margin: auto;
-       
     }
     #casillero{
         width: 100%;
@@ -126,10 +124,6 @@ input{
     }
     .botones{
         width:100%;
-        margin-top: 0%;
-        margin-left: 0%;
-        margin-top: 0%;
-      
     }
     .botones h1 {
         text-align:center;
@@ -145,8 +139,14 @@ input{
     }
     #explicacion{
         width: 90%;
-        margin-left: 6%;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 13px;
+    }
+
+    .inputs{
+        width: 80%;
+    }
+    input{
+        width:70%;
     }
 }

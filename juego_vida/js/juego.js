@@ -31,7 +31,10 @@ function creacion_juego(filas, columnas){
 }
 
 function reinicio(){
-    clearInterval(intervalo);
+    if (typeof intervalo !== 'undefined') {
+        clearInterval();
+    }
+  
     document.getElementById("error").innerHTML="";
     filas_input = parseInt(document.getElementById("filas").value) ;
     columnas_input = parseInt(document.getElementById("columnas").value) ;
