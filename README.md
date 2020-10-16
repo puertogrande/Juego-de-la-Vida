@@ -1,5 +1,5 @@
 # Juego-de-la-vida
-El Juego de la vida es un autómata celular diseñado por el matemático británico John Horton Conway en 1970.Se trata de un juego de cero jugadores, lo que quiere decir que su evolución está determinada por el estado inicial y no necesita ninguna entrada de datos posterior. 
+El Juego de la vida es un autómata celular diseñado por el matemático británico John Horton Conway en 1970. Se trata de un juego de cero jugadores, lo que quiere decir que su evolución está determinada por el estado inicial y no necesita ninguna entrada de datos posterior. 
 
 NORMAS DEL JUEGO
 
