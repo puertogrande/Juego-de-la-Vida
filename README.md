@@ -13,5 +13,7 @@ CAMBIO TABLERO
 Podemos cambiar el número de células que se encuentran en cada fila y en cada columna
 
 Diseño responsive
+
 ![General](imagenes/responsive.PNG?raw=true "General")
+
 El diseño se ajusta a las diferentes resoluciones de pantalla.
