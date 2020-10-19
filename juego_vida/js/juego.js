@@ -32,7 +32,7 @@ function creacion_juego(filas, columnas){
 
 function reinicio(){
     if (typeof intervalo !== 'undefined') {
-        clearInterval();
+        clearInterval(intervalo);
     }
   
     document.getElementById("error").innerHTML="";
