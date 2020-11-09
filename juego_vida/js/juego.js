@@ -1,3 +1,9 @@
+/*variables globales*/
+var juego_creado = false;
+var tablero = [];
+var filas_asignadas = 0;
+var columnas_asignadas = 0;
+
 function celula_individual() { 
     numero = Math.random()*10;
     this.hermanos_vivos = 0;
@@ -10,11 +16,6 @@ function celula_individual() {
         this.vivo_despues = true;
     }   
 }
-/*variables globales*/
-var juego_creado = false;
-var tablero = [];
-var filas_asignadas = 0;
-var columnas_asignadas = 0;
 
 function creacion_juego(filas, columnas){
     document.getElementById("casillero").innerHTML="";
